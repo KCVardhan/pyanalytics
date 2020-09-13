@@ -154,6 +154,11 @@ numpy.array([list1])
 import numpy as np #np is alias
 np1 = np.arange(1,10)
 np1
+np2=np.arange(50,101)
+x=np.arange(start=1,stop=1000000,step=2)
+x[1:50:5]
+
+np.mean(x[0:100])
 
 x=np.arange(start=1,stop=1000000,step=2)
 len(x)
@@ -224,6 +229,7 @@ sns.pairplot(iris)  #relationship diagrams
 #%% #Load Inbuilt Datasets
 
 #pip install pydataset
+
 from pydataset import data
 data('iris')
 data('mtcars')
